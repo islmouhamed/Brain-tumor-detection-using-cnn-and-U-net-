@@ -1,0 +1,113 @@
+<html>
+<head>
+    <title> Segmentation IRM</title>
+</head>
+<body onload="reverse()">
+<div class="card" id="card_">
+  <div class="card-content">
+  <h2>Entrez une Image IRM</h2>
+      <img src="" id="img_" width="256px" height="256px" style="display: none;" onclick="document.getElementById('selectfile').click()">
+ <form id="myForm" action="http://localhost:5000/predict" method="Post" enctype="multipart/form-data">
+     <input type="file" id="selectfile" accept="image/png, image/jpeg"  style="display:none;" name="file" onchange="select_image()">
+     <input type="text" id="button_num" name="task_num" style="display: none">
+</form>
+  <button id="upld" class="btn" onclick="document.getElementById('selectfile').click()">Choisir</button>
+      <br>
+      <br>
+   <button class="btn" id="classify_" onclick="submit_form(1)" style="visibility: hidden">Classifier</button>
+   <button class="btn" id="pred" onclick="submit_form(2)" style="visibility: hidden">Segmenté</button>
+  </div>
+</div>
+</body>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+body{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  display: flex;
+  font-family: Open Sans;
+  height: 100vh;
+
+}
+.card {
+    transform: translateZ(0);
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    width: 170px;
+    height: 150px;
+    margin: auto;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    display: flex;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1), 3px 5px 20px rgba(0,0,0,.2);
+    position: relative;
+    transition: height 1s, width 1s;
+}
+
+
+
+  .card-content{
+    margin: auto;
+    text-align:center;
+  }
+
+  h1{
+    transform: translateZ(100px);
+      color:#141E30;
+  }
+    .btn {
+        height: 40px;
+        width: 100px;
+        border: 0px;
+        border-radius: 2px;
+        outline: none;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+        background-color: #141E30;
+        color: #ecf0f1;
+        cursor: pointer;
+    }
+.btn:hover{
+    background-color: #ecf0f1;
+        color: #141E30;
+}
+#img_{
+    cursor: pointer;
+}
+
+</style>
+<script>
+    function reverse() {
+        document.getElementById('classify_').style.visibility="hidden";
+        document.getElementById('upld').style.display="inline-block";
+        document.getElementById('pred').style.visibility="hidden";
+        document.getElementById("card_").style.width = '170px';
+        document.getElementById("card_").style.height = '150px';
+    }
+    function submit_form(val) {
+        document.getElementById("button_num").value=val;
+        document.getElementById("myForm").submit();
+    }
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+   }
+    async function select_image(){
+        document.getElementById("card_").style.width = '400px';
+        document.getElementById("card_").style.height = '400px';
+         await sleep(1000);
+        document.getElementById('classify_').style.visibility="visible";
+        document.getElementById('upld').style.display="none";
+        document.getElementById('img_').style.display="block";
+        document.getElementById('pred').style.visibility="visible";
+        var oFReader = new FileReader();
+        oFReader.readAsDataURL(document.getElementById("selectfile").files[0]);
+        oFReader.onload = function (oFREvent) {
+            document.getElementById("img_").src = oFREvent.target.result;
+        };
+    }
+</script>
+</html>

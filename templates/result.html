@@ -1,0 +1,192 @@
+<html>
+<head>
+    <title>Segmentation IRM</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://thdoan.github.io/magnify/js/jquery.magnify.js'></script>
+</head>
+<body>
+    <div class="card">
+        <div class="card-content">
+        <h2>Image IRM Segmenté</h2>
+        <br>
+            <label style="font-family: 'Open Sans'; font-weight: bold"> zoom Échelle :</label>
+            <input id="zoom-scale" type="range" step="0.1"  min="1" max="1.5" value="0.6"/>
+            <br>
+            <br>
+                <button class="btn" onclick="rotate()">Rotation</button>
+            <br>
+            <br>
+         <img class="zoom"  data-magnify-src="/static/result/{{ fname }}" src="/static/result/{{ fname }}" width="256px" height="256px" >
+            <a id="res_" href="/static/result/{{ fname }}" style="display: none" download></a>
+            <br>
+            <br>
+             <button class="btn" onclick="dwnld()" >sauvegarder</button>
+            <br>
+           <button class="btn" onclick="select_image()" style="margin-top: 5px">Choisir une autre</button>
+        </div>
+
+      </div>
+</body>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+body{background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  display: flex;
+  font-family: Open Sans;
+  height: 100vh;
+
+}
+.card {
+    transform: translateZ(0);
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    width: 420px;
+    height: 580px;
+    margin: auto;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    display: flex;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1), 3px 5px 20px rgba(0,0,0,.2);
+    position: relative;
+}
+
+  .card-content{
+    margin: auto;
+    text-align:center;
+  }
+
+  h1{
+    transform: translateZ(100px);
+      color:#141E30;
+  }
+    .btn {
+        height: 40px;
+        width: 100px;
+        border: 0px;
+        border-radius: 2px;
+        outline: none;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+        background-color: #141E30;
+        color: #ecf0f1;
+        cursor: pointer;
+    }
+.btn:hover{
+    background-color: #ecf0f1;
+        color: #141E30;
+}
+#img_{
+    cursor: pointer;
+}
+    .zoom {
+  border-radius: 5px;
+}
+
+.magnifying > body {
+  overflow-x: hidden;
+}
+.magnify {
+  position: relative;
+  display: inline-block;
+}
+.magnify-lens{
+  transform: scale(0.6);
+}
+
+.magnify .magnify-lens {
+  /* Create the magnifying lens */
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  /* Multiple box shadows to achieve the glass lens effect */
+  -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 7px 7px rgba(0, 0, 0, 0.25),
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 7px 7px rgba(0, 0, 0, 0.25),
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  /* Hide the mouse pointer */
+  cursor: none;
+  /* Hide the lens by default */
+  display: none;
+  /* Place the lens on top of other elements */
+  z-index: 100;
+}
+.magnify .magnify-lens.loading {
+  background: #333;
+  opacity: 0.75;
+}
+.magnify .magnify-lens.loading:after {
+  /* Loading text */
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  content: 'Loading...';
+  font: italic normal 16px/1 Calibri, sans-serif;
+  text-align: center;
+  text-shadow: 0 0 2px rgba(51, 51, 51, 0.8);
+  text-transform: none;
+}
+
+</style>
+<script>
+   function select_image(){
+   window.open('/',"_self");
+    }
+    function dwnld() {
+    document.getElementById('res_').click();
+    }
+var degree = 0;
+var zoomScale = 0.6;
+function rotate() {
+ if(degree<270){
+     degree+=90;
+ }
+ else{
+     degree=0;
+ }
+  $("img").css({
+    transform: 'rotate(' + degree + 'deg)'
+  });
+  $(".magnify-lens").css({
+    transform: 'rotate(' + degree + 'deg) scale(' + zoomScale +')'
+  });
+}
+
+$("input#rotate").on("mousemove change", function (){
+  degree = - $(this).val();
+  $("img").css({
+    transform: 'rotate(' + degree + 'deg)'
+  });
+  $(".magnify-lens").css({
+    transform: 'rotate(' + degree + 'deg) scale(' + zoomScale +')'
+  });
+});
+
+$("input#zoom-scale").on("mousemove change", function (){
+  zoomScale = $(this).val();
+  $(".magnify-lens").css({
+    transform: 'rotate(' + degree + 'deg) scale(' + zoomScale +')'
+  });
+});
+
+
+$(document).ready(function() {
+  // Initiate magnification powers
+  $('.zoom').magnify({
+    onload: function() {
+      console.log('Magnification powers activated!');
+    }
+  });
+});
+</script>
+</html>
+
+

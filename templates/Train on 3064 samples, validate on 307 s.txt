@@ -1,0 +1,3301 @@
+Train on 2757 samples, validate on 307 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 2757 samples, validate on 387 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108Train on 3064 samples, validate on 307 samples
+Epoch 1/80
+2757/2757 [==============================] - 53s 34ms/step - loss: 0.1495 - dice_loss: 0.1298 - val_loss: 0.1463 - val_dice_loss: 0.1521
+
+Epoch 00001: val_dice_loss improved from -inf to 0.15210, saving model to best_val_dice.h5
+Epoch 2/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0930 - dice_loss: 0.2933 - val_loss: 0.0817 - val_dice_loss: 0.2858
+
+Epoch 00002: val_dice_loss improved from 0.15210 to 0.28577, saving model to best_val_dice.h5
+Epoch 3/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0747 - dice_loss: 0.4256 - val_loss: 0.0702 - val_dice_loss: 0.4583
+
+Epoch 00003: val_dice_loss improved from 0.28577 to 0.45834, saving model to best_val_dice.h5
+Epoch 4/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0633 - dice_loss: 0.5157 - val_loss: 0.0576 - val_dice_loss: 0.4948
+
+Epoch 00004: val_dice_loss improved from 0.45834 to 0.49481, saving model to best_val_dice.h5
+Epoch 5/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0513 - dice_loss: 0.6078 - val_loss: 0.0622 - val_dice_loss: 0.4246
+
+Epoch 00005: val_dice_loss did not improve from 0.49481
+Epoch 6/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0405 - dice_loss: 0.6811 - val_loss: 0.0387 - val_dice_loss: 0.6595
+
+Epoch 00006: val_dice_loss improved from 0.49481 to 0.65951, saving model to best_val_dice.h5
+Epoch 7/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0305 - dice_loss: 0.7609 - val_loss: 0.0333 - val_dice_loss: 0.6846
+
+Epoch 00007: val_dice_loss improved from 0.65951 to 0.68459, saving model to best_val_dice.h5
+Epoch 8/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0258 - dice_loss: 0.8009 - val_loss: 0.0319 - val_dice_loss: 0.6997
+
+Epoch 00008: val_dice_loss improved from 0.68459 to 0.69970, saving model to best_val_dice.h5
+Epoch 9/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0211 - dice_loss: 0.8309 - val_loss: 0.0226 - val_dice_loss: 0.7898
+
+Epoch 00009: val_dice_loss improved from 0.69970 to 0.78979, saving model to best_val_dice.h5
+Epoch 10/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0170 - dice_loss: 0.8630 - val_loss: 0.0202 - val_dice_loss: 0.8423
+
+Epoch 00010: val_dice_loss improved from 0.78979 to 0.84235, saving model to best_val_dice.h5
+Epoch 11/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0135 - dice_loss: 0.8869 - val_loss: 0.0212 - val_dice_loss: 0.8020
+
+Epoch 00011: val_dice_loss did not improve from 0.84235
+Epoch 12/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0155 - dice_loss: 0.8723 - val_loss: 0.0221 - val_dice_loss: 0.7951
+
+Epoch 00012: val_dice_loss did not improve from 0.84235
+Epoch 13/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0147 - dice_loss: 0.8786 - val_loss: 0.0193 - val_dice_loss: 0.8372
+
+Epoch 00013: val_dice_loss did not improve from 0.84235
+Epoch 14/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0129 - dice_loss: 0.8930 - val_loss: 0.0184 - val_dice_loss: 0.8373
+
+Epoch 00014: val_dice_loss did not improve from 0.84235
+
+Epoch 00014: ReduceLROnPlateau reducing learning rate to 0.00010000000474974513.
+Epoch 15/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0107 - dice_loss: 0.9072 - val_loss: 0.0173 - val_dice_loss: 0.8688
+
+Epoch 00015: val_dice_loss improved from 0.84235 to 0.86876, saving model to best_val_dice.h5
+Epoch 16/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0098 - dice_loss: 0.9177 - val_loss: 0.0178 - val_dice_loss: 0.8748
+
+Epoch 00016: val_dice_loss improved from 0.86876 to 0.87481, saving model to best_val_dice.h5
+Epoch 17/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0097 - dice_loss: 0.9180 - val_loss: 0.0174 - val_dice_loss: 0.8760
+
+Epoch 00017: val_dice_loss improved from 0.87481 to 0.87600, saving model to best_val_dice.h5
+Epoch 18/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9189 - val_loss: 0.0187 - val_dice_loss: 0.8768
+
+Epoch 00018: val_dice_loss improved from 0.87600 to 0.87675, saving model to best_val_dice.h5
+Epoch 19/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0094 - dice_loss: 0.9191 - val_loss: 0.0178 - val_dice_loss: 0.8781
+
+Epoch 00019: val_dice_loss improved from 0.87675 to 0.87806, saving model to best_val_dice.h5
+Epoch 20/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0091 - dice_loss: 0.9215 - val_loss: 0.0180 - val_dice_loss: 0.8791
+
+Epoch 00020: val_dice_loss improved from 0.87806 to 0.87911, saving model to best_val_dice.h5
+Epoch 21/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0089 - dice_loss: 0.9235 - val_loss: 0.0186 - val_dice_loss: 0.8809
+
+Epoch 00021: val_dice_loss improved from 0.87911 to 0.88095, saving model to best_val_dice.h5
+Epoch 22/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0088 - dice_loss: 0.9249 - val_loss: 0.0177 - val_dice_loss: 0.8841
+
+Epoch 00022: val_dice_loss improved from 0.88095 to 0.88409, saving model to best_val_dice.h5
+Epoch 23/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0086 - dice_loss: 0.9262 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00023: val_dice_loss improved from 0.88409 to 0.88595, saving model to best_val_dice.h5
+Epoch 24/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0085 - dice_loss: 0.9266 - val_loss: 0.0180 - val_dice_loss: 0.8860
+
+Epoch 00024: val_dice_loss improved from 0.88595 to 0.88599, saving model to best_val_dice.h5
+Epoch 25/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0084 - dice_loss: 0.9288 - val_loss: 0.0186 - val_dice_loss: 0.8850
+
+Epoch 00025: val_dice_loss did not improve from 0.88599
+Epoch 26/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9291 - val_loss: 0.0177 - val_dice_loss: 0.8903
+
+Epoch 00026: val_dice_loss improved from 0.88599 to 0.89033, saving model to best_val_dice.h5
+Epoch 27/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0082 - dice_loss: 0.9304 - val_loss: 0.0171 - val_dice_loss: 0.8877
+
+Epoch 00027: val_dice_loss did not improve from 0.89033
+Epoch 28/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9316 - val_loss: 0.0175 - val_dice_loss: 0.8911
+
+Epoch 00028: val_dice_loss improved from 0.89033 to 0.89114, saving model to best_val_dice.h5
+Epoch 29/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0079 - dice_loss: 0.9315 - val_loss: 0.0172 - val_dice_loss: 0.8925
+
+Epoch 00029: val_dice_loss improved from 0.89114 to 0.89249, saving model to best_val_dice.h5
+Epoch 30/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0080 - dice_loss: 0.9322 - val_loss: 0.0185 - val_dice_loss: 0.8919
+
+Epoch 00030: val_dice_loss did not improve from 0.89249
+Epoch 31/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0075 - dice_loss: 0.9352 - val_loss: 0.0186 - val_dice_loss: 0.8922
+
+Epoch 00031: val_dice_loss did not improve from 0.89249
+Epoch 32/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0074 - dice_loss: 0.9355 - val_loss: 0.0183 - val_dice_loss: 0.8920
+
+Epoch 00032: val_dice_loss did not improve from 0.89249
+Epoch 33/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0072 - dice_loss: 0.9369 - val_loss: 0.0186 - val_dice_loss: 0.8950
+
+Epoch 00033: val_dice_loss improved from 0.89249 to 0.89503, saving model to best_val_dice.h5
+Epoch 34/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0071 - dice_loss: 0.9391 - val_loss: 0.0186 - val_dice_loss: 0.8970
+
+Epoch 00034: val_dice_loss improved from 0.89503 to 0.89699, saving model to best_val_dice.h5
+Epoch 35/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0069 - dice_loss: 0.9394 - val_loss: 0.0200 - val_dice_loss: 0.8947
+
+Epoch 00035: val_dice_loss did not improve from 0.89699
+Epoch 36/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9409 - val_loss: 0.0196 - val_dice_loss: 0.8983
+
+Epoch 00036: val_dice_loss improved from 0.89699 to 0.89829, saving model to best_val_dice.h5
+Epoch 37/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0068 - dice_loss: 0.9412 - val_loss: 0.0192 - val_dice_loss: 0.8866
+
+Epoch 00037: val_dice_loss did not improve from 0.89829
+Epoch 38/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0073 - dice_loss: 0.9379 - val_loss: 0.0207 - val_dice_loss: 0.8953
+
+Epoch 00038: val_dice_loss did not improve from 0.89829
+Epoch 39/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0066 - dice_loss: 0.9424 - val_loss: 0.0199 - val_dice_loss: 0.8992
+
+Epoch 00039: val_dice_loss improved from 0.89829 to 0.89919, saving model to best_val_dice.h5
+Epoch 40/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0063 - dice_loss: 0.9450 - val_loss: 0.0232 - val_dice_loss: 0.8942
+
+Epoch 00040: val_dice_loss did not improve from 0.89919
+Epoch 41/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0061 - dice_loss: 0.9476 - val_loss: 0.0222 - val_dice_loss: 0.8994
+
+Epoch 00041: val_dice_loss improved from 0.89919 to 0.89938, saving model to best_val_dice.h5
+Epoch 42/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0060 - dice_loss: 0.9473 - val_loss: 0.0218 - val_dice_loss: 0.9008
+
+Epoch 00042: val_dice_loss improved from 0.89938 to 0.90084, saving model to best_val_dice.h5
+Epoch 43/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0059 - dice_loss: 0.9486 - val_loss: 0.0232 - val_dice_loss: 0.9020
+
+Epoch 00043: val_dice_loss improved from 0.90084 to 0.90195, saving model to best_val_dice.h5
+Epoch 44/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0058 - dice_loss: 0.9493 - val_loss: 0.0251 - val_dice_loss: 0.9007
+
+Epoch 00044: val_dice_loss did not improve from 0.90195
+Epoch 45/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0057 - dice_loss: 0.9512 - val_loss: 0.0245 - val_dice_loss: 0.8989
+
+Epoch 00045: val_dice_loss did not improve from 0.90195
+Epoch 46/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9536 - val_loss: 0.0241 - val_dice_loss: 0.8979
+
+Epoch 00046: val_dice_loss did not improve from 0.90195
+Epoch 47/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0054 - dice_loss: 0.9527 - val_loss: 0.0241 - val_dice_loss: 0.9053
+
+Epoch 00047: val_dice_loss improved from 0.90195 to 0.90530, saving model to best_val_dice.h5
+Epoch 48/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0052 - dice_loss: 0.9546 - val_loss: 0.0291 - val_dice_loss: 0.8994
+
+Epoch 00048: val_dice_loss did not improve from 0.90530
+Epoch 49/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0051 - dice_loss: 0.9557 - val_loss: 0.0252 - val_dice_loss: 0.9041
+
+Epoch 00049: val_dice_loss did not improve from 0.90530
+Epoch 50/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0050 - dice_loss: 0.9567 - val_loss: 0.0259 - val_dice_loss: 0.9064
+
+Epoch 00050: val_dice_loss improved from 0.90530 to 0.90636, saving model to best_val_dice.h5
+Epoch 51/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0049 - dice_loss: 0.9578 - val_loss: 0.0250 - val_dice_loss: 0.9072
+
+Epoch 00051: val_dice_loss improved from 0.90636 to 0.90719, saving model to best_val_dice.h5
+Epoch 52/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0047 - dice_loss: 0.9593 - val_loss: 0.0268 - val_dice_loss: 0.9061
+
+Epoch 00052: val_dice_loss did not improve from 0.90719
+Epoch 53/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0048 - dice_loss: 0.9564 - val_loss: 0.0267 - val_dice_loss: 0.9062
+
+Epoch 00053: val_dice_loss did not improve from 0.90719
+Epoch 54/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0045 - dice_loss: 0.9606 - val_loss: 0.0268 - val_dice_loss: 0.9083
+
+Epoch 00054: val_dice_loss improved from 0.90719 to 0.90831, saving model to best_val_dice.h5
+Epoch 55/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0044 - dice_loss: 0.9624 - val_loss: 0.0257 - val_dice_loss: 0.9100
+
+Epoch 00055: val_dice_loss improved from 0.90831 to 0.90998, saving model to best_val_dice.h5
+Epoch 56/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9603 - val_loss: 0.0255 - val_dice_loss: 0.9095
+
+Epoch 00056: val_dice_loss did not improve from 0.90998
+Epoch 57/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0056 - dice_loss: 0.9511 - val_loss: 0.0249 - val_dice_loss: 0.9082
+
+Epoch 00057: val_dice_loss did not improve from 0.90998
+Epoch 58/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0043 - dice_loss: 0.9629 - val_loss: 0.0281 - val_dice_loss: 0.9088
+
+Epoch 00058: val_dice_loss did not improve from 0.90998
+Epoch 59/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0042 - dice_loss: 0.9641 - val_loss: 0.0309 - val_dice_loss: 0.9071
+
+Epoch 00059: val_dice_loss did not improve from 0.90998
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.0000000474974514e-05.
+Epoch 60/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0037 - dice_loss: 0.9679 - val_loss: 0.0305 - val_dice_loss: 0.9103
+
+Epoch 00060: val_dice_loss improved from 0.90998 to 0.91031, saving model to best_val_dice.h5
+Epoch 61/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9684 - val_loss: 0.0309 - val_dice_loss: 0.9105
+
+Epoch 00061: val_dice_loss improved from 0.91031 to 0.91052, saving model to best_val_dice.h5
+Epoch 62/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0036 - dice_loss: 0.9690 - val_loss: 0.0315 - val_dice_loss: 0.9098
+
+Epoch 00062: val_dice_loss did not improve from 0.91052
+Epoch 63/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9695 - val_loss: 0.0317 - val_dice_loss: 0.9105
+
+Epoch 00063: val_dice_loss improved from 0.91052 to 0.91053, saving model to best_val_dice.h5
+Epoch 64/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9697 - val_loss: 0.0320 - val_dice_loss: 0.9106
+
+Epoch 00064: val_dice_loss improved from 0.91053 to 0.91065, saving model to best_val_dice.h5
+Epoch 65/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9696 - val_loss: 0.0327 - val_dice_loss: 0.9104
+
+Epoch 00065: val_dice_loss did not improve from 0.91065
+Epoch 66/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9700 - val_loss: 0.0322 - val_dice_loss: 0.9111
+
+Epoch 00066: val_dice_loss improved from 0.91065 to 0.91108, saving model to best_val_dice.h5
+Epoch 67/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0035 - dice_loss: 0.9693 - val_loss: 0.0324 - val_dice_loss: 0.9108
+
+Epoch 00067: val_dice_loss did not improve from 0.91108
+Epoch 68/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9707 - val_loss: 0.0328 - val_dice_loss: 0.9103
+
+Epoch 00068: val_dice_loss did not improve from 0.91108
+Epoch 69/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9705 - val_loss: 0.0332 - val_dice_loss: 0.9107
+
+Epoch 00069: val_dice_loss did not improve from 0.91108
+Epoch 70/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9706 - val_loss: 0.0331 - val_dice_loss: 0.9101
+
+Epoch 00070: val_dice_loss did not improve from 0.91108
+
+Epoch 00070: ReduceLROnPlateau reducing learning rate to 1.0000000656873453e-06.
+Epoch 71/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00071: val_dice_loss did not improve from 0.91108
+Epoch 72/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0329 - val_dice_loss: 0.9107
+
+Epoch 00072: val_dice_loss did not improve from 0.91108
+Epoch 73/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9708 - val_loss: 0.0330 - val_dice_loss: 0.9106
+
+Epoch 00073: val_dice_loss did not improve from 0.91108
+Epoch 74/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0034 - dice_loss: 0.9703 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00074: val_dice_loss did not improve from 0.91108
+
+Epoch 00074: ReduceLROnPlateau reducing learning rate to 1.0000001111620805e-07.
+Epoch 75/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00075: val_dice_loss did not improve from 0.91108
+Epoch 76/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9711 - val_loss: 0.0329 - val_dice_loss: 0.9109
+
+Epoch 00076: val_dice_loss did not improve from 0.91108
+Epoch 77/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9712 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00077: val_dice_loss did not improve from 0.91108
+Epoch 78/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9710 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00078: val_dice_loss did not improve from 0.91108
+
+Epoch 00078: ReduceLROnPlateau reducing learning rate to 1.000000082740371e-08.
+Epoch 79/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9709 - val_loss: 0.0329 - val_dice_loss: 0.9108
+
+Epoch 00079: val_dice_loss did not improve from 0.91108
+Epoch 80/80
+2757/2757 [==============================] - 42s 27ms/step - loss: 0.0033 - dice_loss: 0.9713 - val_loss: 0.0328 - val_dice_loss: 0.9109
+
+Epoch 00080: val_dice_loss did not improve from 0.91108
